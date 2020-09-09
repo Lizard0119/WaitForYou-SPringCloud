@@ -16,8 +16,21 @@ public class SearchController {
     @Autowired
     SearchCompanyService searchCompanyService;
 
-    @RequestMapping("/searchCompany/{index}")
-    public BaseResp searchCompany(@PathVariable("index") String index) throws IOException {
-        return searchCompanyService.search(index);
+    //根据公司名进行查询
+    @RequestMapping("/searchCompanyByname/{index}")
+    public BaseResp searchCompanyByname(@PathVariable("index") String index) throws IOException {
+        return searchCompanyService.searchByCompanyName(index);
+    }
+
+    //根据省来查询
+    @RequestMapping("/searchCompanByProvince/{index}")
+    public BaseResp searchCompanByProvince(@PathVariable("index") String index) throws IOException {
+        return searchCompanyService.searchCompanByProvince(index);
+    }
+
+    //根据市来查询
+    @RequestMapping("/searchCompanByCity/{index}")
+    public BaseResp searchCompanByCity(@PathVariable("index") String index) throws IOException {
+        return searchCompanyService.searchCompanByCity(index);
     }
 }

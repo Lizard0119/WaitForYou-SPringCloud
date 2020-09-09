@@ -9,7 +9,9 @@ wwh
 @Data
 public class City {
     //城市ID
-    private Integer city_id;
+    //数据库叫  city_id
+    private Integer cityId;
     //城市名称
-    private String city_name;
+    //数据库叫  city_id
+    private String cityName;
 }

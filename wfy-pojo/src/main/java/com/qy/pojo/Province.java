@@ -9,7 +9,9 @@ wwh
 @Data
 public class Province {
     //省份ID
-    private Integer province_id;
+    //数据库叫 province_id
+    private Integer provinceId;
     //省份名称
-    private String province_name;
+    //数据库叫 province_name
+    private String provinceName;
 }
