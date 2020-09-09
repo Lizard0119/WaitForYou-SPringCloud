@@ -13,6 +13,7 @@
         <module>wfy-eureka</module>
         <module>wfy-pojo</module>
         <module>wfy-search</module>
+        <module>wfy-resume</module>
     </modules>
 
     <parent>
