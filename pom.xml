@@ -12,6 +12,7 @@
         <module>wfy-config</module>
         <module>wfy-eureka</module>
         <module>wfy-pojo</module>
+        <module>wfy-search</module>
     </modules>
 
     <parent>
