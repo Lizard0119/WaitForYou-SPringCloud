@@ -10,6 +10,8 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>wfy-config</module>
+        <module>wfy-eureka</module>
+        <module>wfy-pojo</module>
     </modules>
 
     <parent>
