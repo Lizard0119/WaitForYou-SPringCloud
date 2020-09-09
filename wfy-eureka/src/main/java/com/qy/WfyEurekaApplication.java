@@ -1,4 +1,4 @@
-package cn.lcd;
+package com.qy;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
