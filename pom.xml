@@ -14,6 +14,7 @@
         <module>wfy-pojo</module>
         <module>wfy-search</module>
         <module>wfy-resume</module>
+        <module>wfy-utils</module>
     </modules>
 
     <parent>
