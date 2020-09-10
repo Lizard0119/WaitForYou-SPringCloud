@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="wfy-config" />
+        <module name="wfy-eureka" />
+        <module name="wfy-pojo" />
+        <module name="wfy-resume" />
+        <module name="wfy-search" />
+        <module name="wfy-utils" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="WaitForYou-SpringCloud" target="1.8" />
+      <module name="wfy-config" target="1.8" />
+      <module name="wfy-eureka" target="1.8" />
+      <module name="wfy-pojo" target="1.8" />
+      <module name="wfy-resume" target="1.8" />
+      <module name="wfy-search" target="1.8" />
+      <module name="wfy-utils" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/WaitForYou-SpringCloud.iml" filepath="$PROJECT_DIR$/WaitForYou-SpringCloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wfy-config/wfy-config.iml" filepath="$PROJECT_DIR$/wfy-config/wfy-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wfy-eureka/wfy-eureka.iml" filepath="$PROJECT_DIR$/wfy-eureka/wfy-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wfy-pojo/wfy-pojo.iml" filepath="$PROJECT_DIR$/wfy-pojo/wfy-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wfy-resume/wfy-resume.iml" filepath="$PROJECT_DIR$/wfy-resume/wfy-resume.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wfy-search/wfy-search.iml" filepath="$PROJECT_DIR$/wfy-search/wfy-search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wfy-utils/wfy-utils.iml" filepath="$PROJECT_DIR$/wfy-utils/wfy-utils.iml" />
+    </modules>
+  </component>
+</project>
